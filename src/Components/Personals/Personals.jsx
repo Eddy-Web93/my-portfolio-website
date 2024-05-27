@@ -31,7 +31,7 @@ const Personals = () => {
             <Card direct="" img={calendar} title="Birthday" entails="December 25, 2004"/>
             <Card direct="" img={location} title="location" entails="Kenya, Nairobi, Nyeri"/>
         </div>
-        <div className="menu"onClick={displayContainer}>
+        <div className="menu" onClick={displayContainer}>
             <img src={menu} alt="" className='menu-icon' />
         </div>
     </div>
