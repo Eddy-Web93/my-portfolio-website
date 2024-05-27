@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     position: absolute;
     top: 0;
     right: 0;
@@ -14,45 +14,44 @@
     background: #414140;
     z-index: 1;
 }
-.list{
+
+.list {
     font-size: 20px;
     font-weight: 500;
 }
-.list:hover, .active{
+
+.list:hover, .active {
     color: #fff555 !important;
 }
+
 @media (max-width: 1064px) {
-    .list{
+    .list {
         font-size: 15px;
         font-weight: 400;
     }
 }
+
 @media (max-width: 850px) {
-    .list{
-        font-size: 8px;
-        font-weight: 200;
-    }
-}
-@media (max-width: 850px) {
-    .navbar{
+    .navbar {
         position: fixed;
-        top: 92% !important;
-        left: 0;
-        width: 100%;
-        height: 50px;
-        padding: 30px;
+        top: 93% !important; /* Fixed at the bottom */
+        right: 0;
+        width: 100%; /* Full width */
+        height: 50px; /* Keep the height consistent */
+        padding: 0; /* Adjust padding for better fit */
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly; /* Evenly spaced items */
         align-items: center;
+        flex-direction: row; /* Row direction */
         border-radius: 0;
-        border-top-right-radius: 20px;
         border-top-left-radius: 20px;
+        border-top-right-radius: 20px; /* Added top-right radius */
         background: #41414060;
         backdrop-filter: blur(10px);
         z-index: 1;
     }
-    .list{
-        font-size: 20px;
+    .list {
+        font-size: 15px; /* Adjusted font size for visibility */
         font-weight: 500;
     }
 }
