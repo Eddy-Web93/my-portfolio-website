@@ -34,7 +34,7 @@
 @media (max-width: 850px) {
     .navbar {
         position: fixed;
-        top: 93% !important; /* Fixed at the bottom */
+        top: 95% !important; /* Fixed at the bottom */
         right: 0;
         width: 100%; /* Full width */
         height: 50px; /* Keep the height consistent */
