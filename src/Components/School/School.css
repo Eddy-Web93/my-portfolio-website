@@ -1,0 +1,58 @@
+#school{
+    position: relative;
+    padding: 20px;
+    padding-left: 30px;
+    width: 100%;
+    display: flex;
+}
+.line{
+    position: absolute;
+    left: 1%;
+    top: 0;
+    gap: 15px;
+    width: 5px;
+    height: 100%;
+    background: #4e4e4e;
+}
+.line span{
+    position: absolute;
+    top: 23%;
+    left: -50%;
+    width: 200%;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffff55;
+}
+.school-detail{
+    width: fit-content;
+    gap: 15px;
+}
+.school-name{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.school-year{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #ffff55;
+}
+.course{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #cecece;
+}
+@media (max-width: 950px) {
+    .school-name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .course{
+        font-size: 13px;
+    }
+    .school-year{
+        font-size: 11px;
+    }
+}

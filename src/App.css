@@ -1,0 +1,32 @@
+.container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    padding: 5px;
+    width: 70%;
+    height: auto;
+    background: #252525;
+    border-radius: 20px;
+}
+@media (max-width : 1064px) {
+    .container{
+        width: 60%;
+        margin: 10px;
+    }
+}
+@media (max-width : 850px) {
+    .container{
+        position: relative;
+        width: 95%;
+        height: auto;
+        background: #252525;
+        border-radius: 20px;
+    }
+    .app{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

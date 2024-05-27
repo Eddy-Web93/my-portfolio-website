@@ -1,0 +1,28 @@
+#skills{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.skills-title{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.sk-container{
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 1px #272727c0;
+    background: #1d1c1c;
+}
+@media (max-width: 890px) {
+    .skills-title{
+        padding: 15px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

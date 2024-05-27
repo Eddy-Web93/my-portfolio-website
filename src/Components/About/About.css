@@ -1,0 +1,36 @@
+.about-details{
+    position: relative;
+    padding: 20px;
+}
+.about-title{
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+.about-title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 50px;
+    background: #FFFF55;
+}
+.text{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cecece;
+    margin-bottom: 10px;
+}
+@media (max-width: 890px) {
+    .text{
+        line-height: 1.2;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .title{
+        font-size: 23px;
+    }
+}

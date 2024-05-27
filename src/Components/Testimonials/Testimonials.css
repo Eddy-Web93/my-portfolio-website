@@ -1,0 +1,49 @@
+#test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test-containers{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 -15px;
+    padding: 30px 5px;
+    padding-bottom: 35px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+}
+.test-title{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.has-scrollbar::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+    cursor: grabbing;
+}
+.has-scrollbar::-webkit-scrollbar-track{
+    background: #181818;
+    border-radius: 5px;
+}
+.has-scrollbar::-webkit-scrollbar-thumb{
+    background: #ffff55;
+    border-radius: 5px;
+}
+.has-scrollbar::-webkit-scrollbar-button{
+    width: 5px;
+}
+@media (max-width: 1064px) {
+    .test-containers{
+        gap: 7px;
+    }
+    .test-title{
+        padding: 10px;
+    }
+}
