@@ -14,8 +14,13 @@ const Personals = () => {
     const displayContainer = () => {
         setActivate(!activate)
     }
+    const anywhere = () => {
+        if(activate){
+            setActivate(false)
+        }
+    }
   return (
-    <div id='personals'>
+    <div id='personals' onClick={anywhere}>
         <div className="head">
             <div className="image-container">
                 <img src={icon} alt="" className='personal-image'/>

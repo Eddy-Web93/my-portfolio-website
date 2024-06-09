@@ -12,6 +12,7 @@ const Skills = () => {
             <Skill width={95} skill='HTML'/>
             <Skill width={98} skill='CSS'/>
             <Skill width={80} skill='Tailwind CSS'/>
+            <Skill width={90} skill= "Git and Github"/>
             <Skill width={93} skill='JavaScript'/>
             <Skill width={90} skill='React.js'/>
             <Skill width={65} skill='Node.js'/>
